@@ -30,10 +30,10 @@ All of the apps included here should be open source, with repositories you can f
 
 ### Authentication examples
 
-* (https://github.com/ptpaterson/netlify-faunadb-graphql-auth)[netlify-faunadb-graphql-auth] - A version of the netlify-faunadb-example, using HTTP-only cookies for authentication with FaunaDB's native GraphQL API
-* (https://github.com/zeit/next.js/tree/master/examples/with-cookie-auth-fauna)[with-cookie-auth-fauna] - Cookie authentication using FaunaDB with Zeit Now
-* (https://github.com/fillipvt/with-faunadb-abac-auth)[with-faunadb-abac-auth] - Next.js + FaunaDB Cookie Based Login + ABAC + Apollo GraphQL
-* (https://github.com/j0lv3r4/nextjs-auth0-fauna)[nextjs-auth0-fauna] - Serverless authentication example with Next.js, Auth0, Fauna, and ZEIT Now
+* [netlify-faunadb-graphql-auth](https://github.com/ptpaterson/netlify-faunadb-graphql-auth) - A version of the netlify-faunadb-example, using HTTP-only cookies for authentication with FaunaDB's native GraphQL API
+* [with-cookie-auth-fauna](https://github.com/zeit/next.js/tree/master/examples/with-cookie-auth-fauna) - Cookie authentication using FaunaDB with Zeit Now
+* [with-faunadb-abac-auth](https://github.com/fillipvt/with-faunadb-abac-auth) - Next.js + FaunaDB Cookie Based Login + ABAC + Apollo GraphQL
+* [nextjs-auth0-fauna](https://github.com/j0lv3r4/nextjs-auth0-fauna) - Serverless authentication example with Next.js, Auth0, Fauna, and ZEIT Now
 
 ### Incorporating Very Good Security [VGS]
 * (https://github.com/preconceptioncode/netlify-faunadb-example)[A version of netlify-faunadb-example incorporating VGS] - For interacting with regulated, sensitive data without the liability of securing it [e.g., for compliance with HIPAA, GDPR, etc.]
