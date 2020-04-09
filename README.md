@@ -2,13 +2,11 @@
 
 Curated list of FaunaDB resources
 
-# :bookmark_tabs: Contents
+## :bookmark_tabs: Contents
 
-- [Community Drivers](#community-drivers)
-- [Other tools](#other-tools)
 - [Gists](#gists)
-- [Code sandboxes](#other-tools)
 - [Open source example apps](#open-source-example-apps)
+	- [Code sandboxes](#code-sandboxes)
 	- [React](#react)
 		- [Starter-projects](#starter-projects)
 		- [Authentication examples](#authentication-examples)
@@ -17,63 +15,43 @@ Curated list of FaunaDB resources
 		- [Other example apps using React](#other-example-apps-using-react)
 	- [Vue](#vue)
 	- [Svelte](#svelte)
-  - [Video tutorials](#video-tutorials)
-  - [Blogs](#blogs)
-  	- [Database concepts](#database-concepts)
+- [Community Drivers](#community-drivers)
+- [Other tools](#other-tools)
+- [Video tutorials](#video-tutorials)
+- [Blogs](#blogs)
+	- [Database concepts](#database-concepts)
 	- [Code tutorials](#code-tutorials)
 
 
-# Community drivers
-In addition to Fauna's official [and open source] drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
-
-* [Rust driver](https://github.com/prisma/faunadb-rust)
-* [Elixir driver #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
-* [Elixir driver #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
-
-
-# Other tools
-* [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
-* [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
-* [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
-* [Fill Fauna](https://github.com/lkatartn/fill-fauna) - Fill your faunaDB collection with data from JSON file
-* [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
-* [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
-
-
-# Gists
+## Gists
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
 
 
-# Code sandboxes
-* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
-* [JAMstack  - Dynamic and Async functionality](https://codesandbox.io/s/small-pine-qqsxd) - see also the [related blog post](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
-
-
-# Open source example apps
+## Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
 
-## React
+### React
 
-### Starter projects
+#### Starter projects
 * [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Currently our most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
-### Authentication examples
+#### Authentication examples
 * [netlify-faunadb-graphql-auth](https://github.com/ptpaterson/netlify-faunadb-graphql-auth) - A version of the netlify-faunadb-example, using HTTP-only cookies for authentication with FaunaDB's native GraphQL API
 * [with-cookie-auth-fauna](https://github.com/zeit/next.js/tree/master/examples/with-cookie-auth-fauna) - Cookie authentication using FaunaDB with Zeit Now
 * [with-faunadb-abac-auth](https://github.com/fillipvt/with-faunadb-abac-auth) - Next.js + FaunaDB Cookie Based Login + ABAC + Apollo GraphQL
 * [nextjs-auth0-fauna](https://github.com/j0lv3r4/nextjs-auth0-fauna) - Serverless authentication example with Next.js, Auth0, FaunaDB, and ZEIT Now with Python Serverless Functions
 
-### Incorporating Very Good Security [VGS]
+#### Incorporating Very Good Security [VGS]
 * [A version of netlify-faunadb-example incorporating VGS](https://github.com/preconceptioncode/netlify-faunadb-example) - For interacting with regulated, sensitive data without the liability of securing it [e.g., for compliance with HIPAA, GDPR, etc.]
 
-### Incorporating web sockets
+#### Incorporating web sockets
 * [Synchronized Claps with React on Netlify + FaunaDB + Pusher](https://github.com/chron/clap)
 * [Outpost 18](https://github.com/chron/outpost18) - Real-time card game for two players
 
-### Other example apps using React
+#### Other example apps using React
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 * [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
 * [Talent Hub](https://github.com/spacehelmet/talenth) - Open source HR platform on React, Apollo and GraphQL https://talenth.co ([related blog](https://fauna.com/blog/building-a-job-posting-platform-with-faunadb-and-apollo))
@@ -81,14 +59,31 @@ All of the apps included here should be open source, with repositories you can f
 * [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using FaunaDB and some hooks
 * [serverless-graphql-potter](https://github.com/molebox/serverless-graphql-potter) - A playground project for practicing serverless graphql end points. Built with Gatsby, Netlify functions, Apollo, and FaunaDB. Data provided via the Potter API.
 
-## Vue
+### Vue
 * [Got Lobstah](https://github.com/shortdiv/got-lobstah) - A Vue version of netlify-faunadb-example, from the team at Netlify
 * [Vue-netlify-fauna-starter-kit](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) - A serverless stack for building CRUD applications with authentication baked in
 * [notes-app-azure-serverless](https://github.com/bhaidar/notes-app-azure-serverless) - A sample Vue.js app to manage Notes written in Markdown using Azure Functions and FaunaDB
 * [vue-apollo-fauna-tutorial](https://github.com/tylermercer/vue-apollo-fauna-tutorial) - A tutorial on using Vue, FaunaDB, and Apollo to create a simple notes app in TypeScript
 
-## Svelte
+### Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
+
+
+## Community drivers
+In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
+
+* [Rust driver](https://github.com/prisma/faunadb-rust)
+* [Elixir driver #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
+* [Elixir driver #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
+
+
+## Other tools
+* [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
+* [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
+* [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
+* [Fill Fauna](https://github.com/lkatartn/fill-fauna) - Fill your faunaDB collection with data from JSON file
+* [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
+* [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
 
 
 # Video tutorials
