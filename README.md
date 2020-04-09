@@ -22,12 +22,14 @@ Curated list of FaunaDB resources
   	- [Database concepts](#database-concepts)
 	- [Code tutorials](#code-tutorials)
 
+
 # Community drivers
 In addition to Fauna's official [and open source] drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
 
 * [Rust driver](https://github.com/prisma/faunadb-rust)
 * [Elixir driver #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
 * [Elixir driver #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
+
 
 # Other tools
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
@@ -37,14 +39,17 @@ In addition to Fauna's official [and open source] drivers in [JavaScript](https:
 * [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
 * [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
 
+
 # Gists
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
 
+
 # Code sandboxes
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 * [JAMstack  - Dynamic and Async functionality](https://codesandbox.io/s/small-pine-qqsxd) - see also the [related blog post](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
+
 
 # Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
@@ -76,7 +81,6 @@ All of the apps included here should be open source, with repositories you can f
 * [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using FaunaDB and some hooks
 * [serverless-graphql-potter](https://github.com/molebox/serverless-graphql-potter) - A playground project for practicing serverless graphql end points. Built with Gatsby, Netlify functions, Apollo, and FaunaDB. Data provided via the Potter API.
 
-
 ## Vue
 * [Got Lobstah](https://github.com/shortdiv/got-lobstah) - A Vue version of netlify-faunadb-example, from the team at Netlify
 * [Vue-netlify-fauna-starter-kit](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) - A serverless stack for building CRUD applications with authentication baked in
@@ -86,25 +90,27 @@ All of the apps included here should be open source, with repositories you can f
 ## Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
 
+
 # Video tutorials
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (witth Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (with Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
 * [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (with Michael Jolley)](https://www.twitch.tv/videos/575989962)
 
+
 # Blogs
 
-## Database concepts
+### Database concepts
 
-### CSS Tricks series on database consistency
+#### CSS Tricks series on database consistency
 * [Consistency Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) - Consistent Backends and UX: Why Should You Care?
 * [Consistency Part 2: What can go wrong?](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/) - Consistent Backends and UX: What Can Go Wrong?
 * [Consistency Part 3: What are the barriers to adoption?](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/) - Consistent Backends and UX: What are the Barriers to Adoption?
 * [Consistency Part 4: How do new algorithms help?](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/) - Consistent Backends and UX: How Do New Algorithms Help?
 
-### Serverless
+#### Serverless
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers
 
-## Code tutorials
+### Code tutorials
 * [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
 * [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
 * [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
