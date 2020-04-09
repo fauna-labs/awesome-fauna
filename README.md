@@ -4,28 +4,32 @@ Curated list of FaunaDB resources
 
 # :bookmark_tabs: Contents
 
-- [Community Drivers](#community drivers)
+- [Community Drivers](#community-drivers)
 - [Other tools](#other-tools)
 - [Gists](#gists)
-- [Sample/starter apps](#Sample/starter-apps)
+- [Code sandboxes](#other-tools)
+- [Open source example apps](#open-source-example-apps)
 	- [React](#react)
+		- [Starter-projects](#starter-projects)
+		- [Authentication examples](#authentication-examples)
+		- [Incorporating Very Good Security (VGS)](#incorporating-very-good-security-vgs)
+		- [Incorporating web sockets](#incorporating-web-sockets)
+		- [Other example apps using React](#other-example-apps-using-react)
 	- [Vue](#vue)
-  - [Svelte](#svelte)
-  - [Typescript](#typescript)
-  - [Incorporating web sockets](#incorporating-web-sockets)
-  - []()
-  - []()
+	- [Svelte](#svelte)
+  - [Video tutorials](#video-tutorials)
+  - [Blogs](#blogs)
+  	- [Database concepts](#database-concepts)
+	- [Code tutorials](#code-tutorials)
 
 # Community drivers
-
-In addition to Fauna's official [and open source] drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM [Java, Scala, Android](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
+In addition to Fauna's official [and open source] drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
 
 * [Rust driver](https://github.com/prisma/faunadb-rust)
 * [Elixir driver #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
 * [Elixir driver #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
 
 # Other tools
-
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
 * [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
 * [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
@@ -33,19 +37,16 @@ In addition to Fauna's official [and open source] drivers in [JavaScript](https:
 * [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
 * [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
 
-# Code sandboxes
-
-* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
-* [JAMstack  - Dynamic and Async functionality](https://codesandbox.io/s/small-pine-qqsxd) - see also the [related blog post](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
-
 # Gists
-
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
 
-# Open source example apps
+# Code sandboxes
+* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
+* [JAMstack  - Dynamic and Async functionality](https://codesandbox.io/s/small-pine-qqsxd) - see also the [related blog post](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
 
+# Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
 
 ## React
@@ -77,18 +78,15 @@ All of the apps included here should be open source, with repositories you can f
 
 
 ## Vue
-
 * [Got Lobstah](https://github.com/shortdiv/got-lobstah) - A Vue version of netlify-faunadb-example, from the team at Netlify
 * [Vue-netlify-fauna-starter-kit](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) - A serverless stack for building CRUD applications with authentication baked in
 * [notes-app-azure-serverless](https://github.com/bhaidar/notes-app-azure-serverless) - A sample Vue.js app to manage Notes written in Markdown using Azure Functions and FaunaDB
 * [vue-apollo-fauna-tutorial](https://github.com/tylermercer/vue-apollo-fauna-tutorial) - A tutorial on using Vue, FaunaDB, and Apollo to create a simple notes app in TypeScript
 
 ## Svelte
-
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
 
 # Video tutorials
-
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (witth Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (with Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
 * [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (with Michael Jolley)](https://www.twitch.tv/videos/575989962)
@@ -107,7 +105,6 @@ All of the apps included here should be open source, with repositories you can f
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers
 
 ## Code tutorials
-
 * [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
 * [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
 * [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
