@@ -99,6 +99,7 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 
 ## Other tools
+* [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
 * [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
 * [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
