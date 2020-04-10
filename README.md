@@ -1,6 +1,6 @@
 # awesome-faunadb
 
-Curated list of FaunaDB resources. Please feel free to make a PR to add more.
+Curated list of FaunaDB resources. Please feel free to make a PR to add more, or to propose a different organizational astructure.
 
 ## :bookmark_tabs: Contents
 
