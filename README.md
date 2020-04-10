@@ -32,10 +32,10 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
 * [Auth0 and GraphQL example](https://gist.github.com/colllin/52d741f830a98c1a652e817aea0d22d0)
-* [Managing roles memeberships in FaunaDB](https://gist.github.com/gahabeen/089bea4720f7bb8ec8fc47e0eb094ad7)
+* [Managing roles memberships in FaunaDB](https://gist.github.com/gahabeen/089bea4720f7bb8ec8fc47e0eb094ad7)
 * [FaunaDB User Token Expiration (for ABAC)](https://gist.github.com/colllin/fd7a40bb4f0f16603e68db0e6621369f) - Auth0 + FaunaDB ABAC integration: How to expire Fauna user secrets
 * [fauna-graphql-relations](https://gist.github.com/tovbinm/f76bcbf56ea8e2e3740e237b6c2f2ab9) - FaunaDB Relations: GraphQL schemas, mutations and resulting documents
-* [nGram example](https://gist.github.com/eigilsagafos/c4ab8c2dd8e8a47d017d7e543fa5887e)
+* [nGram example](https://gist.github.com/eigilsagafos/c4ab8c2dd8e8a47d017d7e543fa5887e) - Please note that there is currently no official Fauna documentation on this "secret" function because they want to make some improvements to it first. That said, use this function in production code at your own risk.
 
 
 ## Open source example apps
@@ -48,7 +48,7 @@ All of the apps included here should be open source, with repositories you can f
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
 #### Starter projects
-* [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Currently our most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
+* [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Currently Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
 #### Authentication examples
