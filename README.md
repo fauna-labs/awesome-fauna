@@ -72,6 +72,7 @@ All of the apps included here should be open source, with repositories you can f
 
 ### Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
+* [cv-svelte-netlify-faunadb](https://github.com/ganesankar/cv-svelte-netlify-faunadb) - A responsive CV/Resume SPA built with Svelte, bulma, and Netlify Functions
 
 
 ## Community drivers
@@ -94,10 +95,19 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 ## Videos
 
 ### Coding tutorial videos
-* [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (witth Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
-* [Create a JAMstack Registration Form (with Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
-* [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (with Michael Jolley)](https://www.twitch.tv/videos/575989962)
+* [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
+* [Create a JAMstack Registration Form (Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
+* [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (Michael Jolley)](https://www.twitch.tv/videos/575989962)
+* [Learn with Jason: Deploy a Gatsby Site + API Using ZEIT Now (Leo Lamprecht, Jason Lengstorf)](https://www.youtube.com/watch?v=6pfi4tx8yNA) - [demo](https://zeitplusgatsby.com), [repo](https://github.com/jlengstorf/zeit-prod)
+
+[Building a data layer for awesum.io with FaunaDb (Michael Jolley, 9/19/2019)](https://www.youtube.com/watch?v=E2YP4v5eT4Q)
+
+* [Exploring Netlify and FaunaDB using Go Functions (Chris Biscardi)](https://www.youtube.com/watch?v=80c3088hXWQ) - We insert our first documents into a FaunaDB database using the Golang driver. 
+* [Querying FaunaDB with FQL and GoLang (Chris Biscardi)](https://www.youtube.com/watch?v=4S7BNMIuwgk)
+
 * [Oracle & PostgreSQL To FaunaDB FullMode](https://www.youtube.com/watch?v=33a1nSxU32E)
+
+
 
 ### Database concept videos
 * [Webinar: Comparing Distributed Transaction Architectures for the Cloud Era (Kyle Kingsbury)](https://www.youtube.com/watch?v=w_zYYF3-iSo&t=2628s) - Geographically distributed transactional workloads are an emerging problem in distributed databases. Consensus algorithms like Raft offer us totally ordered operations in the context of a single replication group, but there is (as of yet) no consensus on how to build fast, isolated transactions across multiple consensus groups. Kyle Kingsbury, author of the famous Jepsen testing series, presents several approaches for transactional databases, including those based on Percolator (TiDB), Spanner (CockroachDB), MongoDB, Yugabyte and Calvin (FaunaDB).
