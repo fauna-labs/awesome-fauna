@@ -128,7 +128,7 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 ## Articles
 
-### Coding tutorial blogs
+#### Coding tutorial blogs
 * [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
 * [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
 * [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
@@ -136,7 +136,7 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 * [Serverless GraphQL - Part 3](https://nickymeuleman.netlify.app/blog/serverless-graphql-part-3)
 * [JAMstack Dynamic and Async functionality](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
 
-### Database concept blogs
+#### Database concept blogs
 
 ##### CSS Tricks series on database consistency
 * [Consistency Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) - Consistent Backends and UX: Why Should You Care?
