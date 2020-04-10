@@ -1,6 +1,6 @@
 # awesome-faunadb
 
-Curated list of FaunaDB resources. Please feel free to make a PR to add more, or to propose a different organizational structure.
+Curated list of FaunaDB resources that live outside of the fauna.com or docs.fauna.com domains. Please feel free to make a PR to add more, or to propose a different organizational structure.
 
 ## :bookmark_tabs: Contents
 
@@ -15,6 +15,7 @@ Curated list of FaunaDB resources. Please feel free to make a PR to add more, or
 		- [Other example apps using React](#other-example-apps-using-react)
 	- [Vue](#vue)
 	- [Svelte](#svelte)
+	- [Other or no framework](#other-or-no-framework)
 - [Community Drivers](#community-drivers)
 - [Other tools](#other-tools)
 - [Videos](#videos)
@@ -30,10 +31,16 @@ Curated list of FaunaDB resources. Please feel free to make a PR to add more, or
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
+* [Auth0 and GraphQL example](https://gist.github.com/colllin/52d741f830a98c1a652e817aea0d22d0)
+* [Managing roles memeberships in FaunaDB](https://gist.github.com/gahabeen/089bea4720f7bb8ec8fc47e0eb094ad7)
+* [FaunaDB User Token Expiration (for ABAC)](https://gist.github.com/colllin/fd7a40bb4f0f16603e68db0e6621369f) - Auth0 + FaunaDB ABAC integration: How to expire Fauna user secrets
+* [fauna-graphql-relations](https://gist.github.com/tovbinm/f76bcbf56ea8e2e3740e237b6c2f2ab9) - FaunaDB Relations: GraphQL schemas, mutations and resulting documents
+* [nGram example](https://gist.github.com/eigilsagafos/c4ab8c2dd8e8a47d017d7e543fa5887e)
 
 
 ## Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
+
 
 ### React
 
@@ -74,6 +81,9 @@ All of the apps included here should be open source, with repositories you can f
 ### Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
 * [cv-svelte-netlify-faunadb](https://github.com/ganesankar/cv-svelte-netlify-faunadb) - A responsive CV/Resume SPA built with Svelte, bulma, and Netlify Functions
+
+### Other or no framework
+* [https://github.com/zeusdeux/jwt-example](https://github.com/zeusdeux/jwt-example) - Playing with user registration, login/logout, auth, etc using JWTs, serverless functions & faunadb as the data store. 
 
 
 ## Community drivers
