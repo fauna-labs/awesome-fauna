@@ -48,27 +48,27 @@ All of the apps included here should be open source, with repositories you can f
 
 ### React
 
-#### Code sandboxes
+###### Code sandboxes
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
-#### Starter projects
+###### Starter projects
 * [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Currently Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
-#### Authentication examples
+###### Authentication examples
 * [netlify-faunadb-graphql-auth](https://github.com/ptpaterson/netlify-faunadb-graphql-auth) - A version of the netlify-faunadb-example, using HTTP-only cookies for authentication with FaunaDB's native GraphQL API
 * [with-cookie-auth-fauna](https://github.com/zeit/next.js/tree/master/examples/with-cookie-auth-fauna) - Cookie authentication using FaunaDB with Zeit Now
 * [with-faunadb-abac-auth](https://github.com/fillipvt/with-faunadb-abac-auth) - Next.js + FaunaDB Cookie Based Login + ABAC + Apollo GraphQL
 * [nextjs-auth0-fauna](https://github.com/j0lv3r4/nextjs-auth0-fauna) - Serverless authentication example with Next.js, Auth0, FaunaDB, and ZEIT Now with Python Serverless Functions
 
-#### Incorporating Very Good Security [VGS]
+###### Incorporating Very Good Security [VGS]
 * [A version of netlify-faunadb-example incorporating VGS](https://github.com/preconceptioncode/netlify-faunadb-example) - For interacting with regulated, sensitive data without the liability of securing it [e.g., for compliance with HIPAA, GDPR, etc.]
 
-#### Incorporating web sockets
+###### Incorporating web sockets
 * [Synchronized Claps with React on Netlify + FaunaDB + Pusher](https://github.com/chron/clap)
 * [Outpost 18](https://github.com/chron/outpost18) - Real-time card game for two players
 
-#### Other example apps using React
+###### Other example apps using React
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 * [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
 * [Talent Hub](https://github.com/spacehelmet/talenth) - Open source HR platform on React, Apollo and GraphQL https://talenth.co ([related blog](https://fauna.com/blog/building-a-job-posting-platform-with-faunadb-and-apollo))
@@ -109,7 +109,7 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 ## Videos
 
-### Coding tutorial videos
+###### Coding tutorial videos
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
 * [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (Michael Jolley)](https://www.twitch.tv/videos/575989962)
@@ -119,12 +119,13 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 * [Querying FaunaDB with FQL and GoLang (Chris Biscardi)](https://www.youtube.com/watch?v=4S7BNMIuwgk)
 * [Oracle & PostgreSQL To FaunaDB FullMode](https://www.youtube.com/watch?v=33a1nSxU32E)
 
-### Database concept videos
+###### Database concept videos
 * [Webinar: Comparing Distributed Transaction Architectures for the Cloud Era (Kyle Kingsbury)](https://www.youtube.com/watch?v=w_zYYF3-iSo&t=2628s) - Geographically distributed transactional workloads are an emerging problem in distributed databases. Consensus algorithms like Raft offer us totally ordered operations in the context of a single replication group, but there is (as of yet) no consensus on how to build fast, isolated transactions across multiple consensus groups. Kyle Kingsbury, author of the famous Jepsen testing series, presents several approaches for transactional databases, including those based on Percolator (TiDB), Spanner (CockroachDB), MongoDB, Yugabyte and Calvin (FaunaDB).
 
 
 ## Podcasts
 * [Unpacking Fauna: A Global Scale Cloud Native Database - Data Engineering Podcast Episode 78 (Tobias Macey, 6/4/2019)] - (https://www.youtube.com/watch?v=idex_BnG_c0)
+
 
 ## Articles
 
@@ -138,11 +139,11 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 #### Database concept blogs
 
-##### CSS Tricks series on database consistency
+###### CSS Tricks series on database consistency
 * [Consistency Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) - Consistent Backends and UX: Why Should You Care?
 * [Consistency Part 2: What can go wrong?](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/) - Consistent Backends and UX: What Can Go Wrong?
 * [Consistency Part 3: What are the barriers to adoption?](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/) - Consistent Backends and UX: What are the Barriers to Adoption?
 * [Consistency Part 4: How do new algorithms help?](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/) - Consistent Backends and UX: How Do New Algorithms Help?
 
-##### Serverless
+###### Serverless
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers
