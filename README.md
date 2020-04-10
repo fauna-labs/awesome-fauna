@@ -1,13 +1,13 @@
 # awesome-faunadb
 
-Curated list of FaunaDB resources
+Curated list of FaunaDB resources. Please feel free to make a PR to add more.
 
 ## :bookmark_tabs: Contents
 
 - [Gists](#gists)
 - [Open source example apps](#open-source-example-apps)
-	- [Code sandboxes](#code-sandboxes)
 	- [React](#react)
+		- [Code sandboxes](#code-sandboxes)
 		- [Starter-projects](#starter-projects)
 		- [Authentication examples](#authentication-examples)
 		- [Incorporating Very Good Security (VGS)](#incorporating-very-good-security-vgs)
@@ -17,10 +17,12 @@ Curated list of FaunaDB resources
 	- [Svelte](#svelte)
 - [Community Drivers](#community-drivers)
 - [Other tools](#other-tools)
-- [Video tutorials](#video-tutorials)
-- [Blogs](#blogs)
-	- [Database concepts](#database-concepts)
-	- [Code tutorials](#code-tutorials)
+- [Videos](#videos)
+	- [Coding tutorial videos](#coding-tutorial-videos)
+	- [Database concept videos](#database-concept-videos)
+- [Articles](#articles)
+	- [Coding tutorial blogs](#coding-tutorial-blogs)
+	- [Database concept blogs](#database-concept-blogs)
 
 
 ## Gists
@@ -33,6 +35,9 @@ Curated list of FaunaDB resources
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
 
 ### React
+
+#### Code sandboxes
+* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
 #### Starter projects
 * [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Currently our most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
@@ -86,15 +91,29 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 * [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
 
 
-# Video tutorials
+## Videos
+
+### Coding tutorial videos
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (witth Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (with Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
 * [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (with Michael Jolley)](https://www.twitch.tv/videos/575989962)
+* [Oracle & PostgreSQL To FaunaDB FullMode](https://www.youtube.com/watch?v=33a1nSxU32E)
+
+### Database concept videos
+* [Webinar: Comparing Distributed Transaction Architectures for the Cloud Era (Kyle Kingsbury)](https://www.youtube.com/watch?v=w_zYYF3-iSo&t=2628s) - Geographically distributed transactional workloads are an emerging problem in distributed databases. Consensus algorithms like Raft offer us totally ordered operations in the context of a single replication group, but there is (as of yet) no consensus on how to build fast, isolated transactions across multiple consensus groups. Kyle Kingsbury, author of the famous Jepsen testing series, presents several approaches for transactional databases, including those based on Percolator (TiDB), Spanner (CockroachDB), MongoDB, Yugabyte and Calvin (FaunaDB).
 
 
-# Blogs
+## Articles
 
-### Database concepts
+### Coding tutorial blogs
+* [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
+* [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
+* [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
+* [How To Integrate FaunaDB In NodeJS](http://codigofacilito.com/articulos/faunadb-node)
+* [Serverless GraphQL - Part 3](https://nickymeuleman.netlify.app/blog/serverless-graphql-part-3)
+* [JAMstack Dynamic and Async functionality](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
+
+### Database concept blogs
 
 #### CSS Tricks series on database consistency
 * [Consistency Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) - Consistent Backends and UX: Why Should You Care?
@@ -104,9 +123,3 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 #### Serverless
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers
-
-### Code tutorials
-* [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
-* [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
-* [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
-* [How To Integrate FaunaDB In NodeJS](http://codigofacilito.com/articulos/faunadb-node)
