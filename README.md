@@ -130,7 +130,7 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 
 ## Podcasts
-* [Unpacking Fauna: A Global Scale Cloud Native Database - Data Engineering Podcast Episode 78 (Tobias Macey, 6/4/2019)] - (https://www.youtube.com/watch?v=idex_BnG_c0)
+* [Unpacking Fauna: A Global Scale Cloud Native Database](https://www.youtube.com/watch?v=idex_BnG_c0) - Data Engineering Podcast Episode 78 (Tobias Macey, 6/4/2019)
 
 
 ## Articles
