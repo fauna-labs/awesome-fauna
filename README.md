@@ -146,9 +146,9 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 #### Database concept blogs
 
 ###### Database consistency
-* [Consistent backends and UX - Part 1: Why should you care? (CSS Tricks, 03/26/2020)](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/)
-* [Consistent backends and UX - Part 2: What can go wrong? (CSS Tricks, 03/26/2020))](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/)
-* [Consistent backends and UX - Part 3: What are the barriers to adoption? (CSS Tricks, 03/26/2020))](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/)
-* [Consistent backends and UX - Part 4: How do new algorithms help? (CSS Tricks, 03/27/2020))](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/)
+* [Consistent backends and UX - Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) -  CSS Tricks, 03/26/2020
+* [Consistent backends and UX - Part 2: What can go wrong?](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/) -  CSS Tricks, 03/26/2020
+* [Consistent backends and UX - Part 3: What are the barriers to adoption?](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/) -  CSS Tricks, 03/26/2020
+* [Consistent backends and UX - Part 4: How do new algorithms help?](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/) -  CSS Tricks, 03/27/2020
 ###### Serverless
-* [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers
+* [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers (InfoWorld, 2/13/2020)
