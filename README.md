@@ -18,7 +18,7 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 	- [Other or no framework](#other-or-no-framework)
 - [Tools](#tools)
 	- [Database Frameworks](#database-frameworks)
-	- [Wrappers & libraries](#wrappers-&-libraries)
+	- [Wrappers & libraries](#wrappers-and-libraries)
 	- [Community Drivers](#community-drivers)
 	- [Data migration](#data-migration)
 	- [Other tools](#other-tools)
@@ -98,7 +98,7 @@ All of the apps included here should be open source, with repositories you can f
 #### Database frameworks
 * [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
 
-#### Wrappers & libraries
+#### Wrappers and libraries
 * [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
 
 #### Community drivers
