@@ -16,8 +16,12 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 	- [Vue](#vue)
 	- [Svelte](#svelte)
 	- [Other or no framework](#other-or-no-framework)
-- [Community Drivers](#community-drivers)
-- [Other tools](#other-tools)
+- [Tools](#tools)
+	- [Database Frameworks](#database-frameworks)
+	- [Wrappers & libraries](#wrappers-&-libraries)
+	- [Community Drivers](#community-drivers)
+	- [Data migration](#data-migration)
+	- [Other tools](#other-tools)
 - [Videos](#videos)
 	- [Coding tutorial videos](#coding-tutorial-videos)
 	- [Database concept videos](#database-concept-videos)
@@ -89,21 +93,29 @@ All of the apps included here should be open source, with repositories you can f
 ### Other or no framework
 * [https://github.com/zeusdeux/jwt-example](https://github.com/zeusdeux/jwt-example) - Playing with user registration, login/logout, auth, etc using JWTs, serverless functions & faunadb as the data store. 
 
+## Tools
 
-## Community drivers
+#### Database frameworks
+* [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
+
+#### Wrappers & libraries
+* [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
+
+#### Community drivers
 In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
 
 * [Rust driver](https://github.com/prisma/faunadb-rust)
 * [Elixir driver #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
 * [Elixir driver #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
 
+#### Data migration
+In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), Fauna's official CLI tool for data import/export tasks, the following are also available.
 
-## Other tools
-* [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
-* [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
 * [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
-* [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
 * [Fill Fauna](https://github.com/lkatartn/fill-fauna) - Fill your faunaDB collection with data from JSON file
+
+#### Other tools
+* [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
 * [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
 * [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
 
