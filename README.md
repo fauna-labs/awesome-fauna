@@ -34,6 +34,7 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 ## Gists
 Example FQL queries, UDFs, role predicates, etc. Any examples in this section can be removed once they are added to the official docs.fauna.com documentation (which Fauna has plans to open source as well). This section will eventually need to be organized.
 
+* [VS Code snippets](https://gist.github.com/gahabeen/7d2b2b1226c8052c439fd77bf15f9b75) - Add code snippets to Fauna's [VS Code extension](https://docs.fauna.com/fauna/current/start/vs_code) (and please contribute to this gist!)
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
