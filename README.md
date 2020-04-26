@@ -53,11 +53,9 @@ All of the apps included here should be open source, with repositories you can f
 
 ### React
 
-###### Code sandboxes
-* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
-
 ###### Starter projects
-* [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Currently Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
+* [Fwitter](https://github.com/fauna-brecht/fwitter) - Fauna's "official unofficial" flagship sample application on which you can build your project. It comes with with built-in authentication, rate limiting (to deter bots), UDFs, tests, and lots of well-commented example queries. This is a work in progress that will eventually incorporate other features like serverless functions, instant deploy, streaming, etc.
+* [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Before Fwitter was created, this was Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and FaunaDB.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
 ###### Authentication examples
@@ -72,6 +70,9 @@ All of the apps included here should be open source, with repositories you can f
 ###### Incorporating web sockets
 * [Synchronized Claps with React on Netlify + FaunaDB + Pusher](https://github.com/chron/clap)
 * [Outpost 18](https://github.com/chron/outpost18) - Real-time card game for two players
+
+###### Code sandboxes
+* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
 ###### Other example apps using React
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
