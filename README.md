@@ -87,6 +87,7 @@ All of the apps included here should be open source, with repositories you can f
 * [Vue-netlify-fauna-starter-kit](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) - A serverless stack for building CRUD applications with authentication baked in
 * [notes-app-azure-serverless](https://github.com/bhaidar/notes-app-azure-serverless) - A sample Vue.js app to manage Notes written in Markdown using Azure Functions and FaunaDB
 * [vue-apollo-fauna-tutorial](https://github.com/tylermercer/vue-apollo-fauna-tutorial) - A tutorial on using Vue, FaunaDB, and Apollo to create a simple notes app in TypeScript
+* [vuejs-faunadb-boilerplate](https://github.com/parag1997/vuejs-faunadb-boilerplate) - A skeleton application to get started with VueJS, FaunaDB, TailwindCSS and Vuesax and Vee Validate.
 
 ### Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
