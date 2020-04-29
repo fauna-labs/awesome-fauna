@@ -33,7 +33,7 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 
 ## Gists
 Example FQL queries, UDFs, role predicates, etc. Any examples in this section can be removed once they are added to the official docs.fauna.com documentation (which Fauna has plans to open source as well). This section will eventually need to be organized.
-
+ 
 * [VS Code snippets](https://gist.github.com/gahabeen/7d2b2b1226c8052c439fd77bf15f9b75) - Add code snippets to Fauna's [VS Code extension](https://docs.fauna.com/fauna/current/start/vs_code) (and please contribute to this gist!)
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
@@ -46,7 +46,7 @@ Example FQL queries, UDFs, role predicates, etc. Any examples in this section ca
 * [nGram example](https://gist.github.com/eigilsagafos/c4ab8c2dd8e8a47d017d7e543fa5887e) - Please note that there is currently no official Fauna documentation on this "secret" function because they want to make some improvements to it first. That said, use this function in production code at your own risk.
 * [Clean up Docker](https://gist.github.com/beeman/aca41f3ebd2bf5efbd9d7fef09eac54d) - Not Fauna-specific, but might be useful to anyone working with the FaunaDB Docker image
 * [Recursion UDF example](https://gist.github.com/n400/6b565a5d0ce99d1bffc1d0c2c3926cfd)
-
+* [Unofficial documentation of Tokens() function](https://gist.github.com/n400/00f6ec6831469df7259b703fb9df1fef)
 
 ## Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
