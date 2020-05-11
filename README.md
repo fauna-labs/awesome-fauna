@@ -90,7 +90,9 @@ All of the apps included here should be open source, with repositories you can f
 * [vuejs-faunadb-boilerplate](https://github.com/parag1997/vuejs-faunadb-boilerplate) - A skeleton application to get started with VueJS, FaunaDB, TailwindCSS and Vuesax and Vee Validate.
 * [gridsome-fauna-auth-boilerplate](https://github.com/parag1997/gridsome-fauna-auth-boilerplate) - A nicely designed skeleton app with authentication to get started with VueJS, FaunaDB and Gridsome
 * [Gridsome-FaunaDB-Todo](https://github.com/Vinayak-k160/Gridsome-FaunaDB-Todo) - A Todo application built with VueJS, Gridsome and FaunaDB
-* [Vue - Netlify - Fauna - A serverless stack with authentication ready to go](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) 
+* [Vue - Netlify - Fauna - A serverless stack with authentication ready to go](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) - A serverless stack that uses Vue for the front-end, Netlify for APIs (via Netlify Functions) and Fauna for persistent data storage.
+
+
 
 ### Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
