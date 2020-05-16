@@ -127,7 +127,7 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
 * [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
 * [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
-
+* [gatsby-source-faunadb](https://github.com/paulcuth/gatsby-source-faunadb/blob/master/package.json) - A Gatsby source plugin to fetch documents from Fauna DB
 
 ## Videos
 
