@@ -26,9 +26,10 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 	- [Coding tutorial videos](#coding-tutorial-videos)
 	- [Database concept videos](#database-concept-videos)
 - [Podcasts](#podcasts)
-- [Articles](#articles)
-	- [Coding tutorial blogs](#coding-tutorial-blogs)
-	- [Database concept blogs](#database-concept-blogs)
+- [Articles and posts](#articles-and-posts)
+	- [Coding tutorials](#coding-tutorials)
+	- [Data modeling and performance in FaunaDB](#data-modeling-and-performance-in-faunadb)
+	- [Database concepts](#database-concepts)
 
 
 ## Gists
@@ -156,9 +157,9 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 * [Unpacking Fauna: A Global Scale Cloud Native Database](https://www.youtube.com/watch?v=idex_BnG_c0) - Data Engineering Podcast Episode 78 (Tobias Macey, 6/4/2019)
 
 
-## Articles
+## Articles and posts
 
-#### Coding tutorial blogs
+#### Coding tutorials
 * [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
 * [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
 * [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
@@ -167,12 +168,13 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 * [JAMstack Dynamic and Async functionality](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
 * [Getting started with FQL](https://github.com/PierBover/getting-started-fauna-db-fql)
 
-#### Database concept blogs
+#### Data modeling and performance in FaunaDB
+* [How to query by multiple conditions in faunadb?](https://stackoverflow.com/questions/61509089/how-to-query-by-multiple-conditions-in-faunadb)
 
-###### Database consistency
+#### Database concepts
 * [Consistent backends and UX - Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 2: What can go wrong?](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 3: What are the barriers to adoption?](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 4: How do new algorithms help?](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/) -  CSS Tricks, 03/27/2020
-###### Serverless
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers (InfoWorld, 2/13/2020)
+
