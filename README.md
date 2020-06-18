@@ -113,11 +113,13 @@ All of the apps included here should be open source, with repositories you can f
 * [faunadb-geo](https://www.npmjs.com/package/faunadb-geo) - JS library for creating, managing, and querying geospatial resources in FaunaDB
 
 #### Community drivers
-In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby), and [Swift](https://docs.fauna.com/fauna/current/drivers/swift), the following drivers are currently maintained by the community:
+In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
 
-* [Rust driver](https://github.com/prisma/faunadb-rust)
-* [Elixir driver #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
-* [Elixir driver #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
+* [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
+* [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
+* [Rust](https://github.com/prisma/faunadb-rust)
+* [Elixir #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
+* [Elixir #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
 
 #### Data migration
 In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), Fauna's official CLI tool for data import/export tasks, the following are also available.
