@@ -20,6 +20,7 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 	- [Database Frameworks](#database-frameworks)
 	- [Wrappers & libraries](#wrappers-and-libraries)
 	- [Community Drivers](#community-drivers)
+	- [GraphQL tools](#graphql-tools)
 	- [Data migration](#data-migration)
 	- [Other tools](#other-tools)
 - [Videos](#videos)
@@ -121,6 +122,10 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 * [Rust](https://github.com/prisma/faunadb-rust)
 * [Elixir #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
 * [Elixir #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
+
+
+#### GraphQL tools
+* [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which FaunaDB does not natively support yet. 
 
 #### Data migration
 In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), Fauna's official CLI tool for data import/export tasks, the following are also available.
