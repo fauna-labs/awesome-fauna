@@ -85,7 +85,7 @@ All of the apps included here should be open source, with repositories you can f
 * [fauna-market](https://github.com/fauna/fauna-market) - A market for Emoji goods, to demonstrate global consistency in FaunaDB
 * [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using FaunaDB and some hooks
 * [serverless-graphql-potter](https://github.com/molebox/serverless-graphql-potter) - A playground project for practicing serverless graphql end points. Built with Gatsby, Netlify functions, Apollo, and FaunaDB. Data provided via the Potter API.
-
+* [Games built with Next.js and FaunaDB](https://github.com/goldenshun/botwise) - A set of simple games built with FaunaDB and Next.js which can be seen in action on https://botwise.games/. 
 
 ### Vue
 * [Got Lobstah](https://github.com/shortdiv/got-lobstah) - A Vue version of netlify-faunadb-example, from the team at Netlify
@@ -96,7 +96,6 @@ All of the apps included here should be open source, with repositories you can f
 * [gridsome-fauna-auth-boilerplate](https://github.com/parag1997/gridsome-fauna-auth-boilerplate) - A nicely designed skeleton app with authentication to get started with VueJS, FaunaDB and Gridsome
 * [Gridsome-FaunaDB-Todo](https://github.com/Vinayak-k160/Gridsome-FaunaDB-Todo) - A Todo application built with VueJS, Gridsome and FaunaDB
 * [vue-netlify-fauna-starter-kit](https://github.com/chiubaca/vue-netlify-fauna-starter-kit) - A serverless stack that uses Vue for the front-end, Netlify for APIs (via Netlify Functions) and Fauna for persistent data storage.
-
 
 
 ### Svelte
