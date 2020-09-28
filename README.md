@@ -51,6 +51,7 @@ Example FQL queries, UDFs, role predicates, etc. Any examples in this section ca
 * [Expose response headers from JS driver to get query metrics](https://gist.github.com/n400/76530c146e45e19f4bd95efefd04aae4)
 * [Recursive function to get nested documents](https://gist.github.com/PierBover/70652ded623c6a76db1a0a6fb938a09f)
 * [FaunaDB Query Builder with test](https://gist.github.com/TracyNgot/291738b403cfa012fe7bf05614c22408)
+* [FaunaDB adapter for next-auth](https://gist.github.com/s-kris/fbb9e5d7ba5e9bb3a5f7bd11f3c42b96)
 
 ## Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
