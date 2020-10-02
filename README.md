@@ -31,6 +31,7 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 	- [Coding tutorials](#coding-tutorials)
 	- [Data modeling and performance in FaunaDB](#data-modeling-and-performance-in-faunadb)
 	- [Database concepts](#database-concepts)
+	- [Backups]
 
 
 ## Gists
@@ -196,3 +197,6 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 * [Consistent backends and UX - Part 4: How do new algorithms help?](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/) -  CSS Tricks, 03/27/2020
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers (InfoWorld, 2/13/2020)
 
+
+#### Backups
+* [Automating FaunaDB backups](https://medium.com/@wallslide/automating-faunadb-backups-6f620727eedc) - Medium, 02/10/2020
