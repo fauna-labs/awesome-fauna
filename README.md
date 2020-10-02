@@ -31,7 +31,7 @@ Curated list of FaunaDB resources that live outside of the fauna.com or docs.fau
 	- [Coding tutorials](#coding-tutorials)
 	- [Data modeling and performance in FaunaDB](#data-modeling-and-performance-in-faunadb)
 	- [Database concepts](#database-concepts)
-	- [Backups]
+	- [Backups](#backups
 
 
 ## Gists
