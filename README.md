@@ -151,6 +151,7 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 #### Coding tutorial videos
 
 ###### JavaScript
+* [FaunaDB basics](https://www.youtube.com/watch?v=2CipVwISumA)
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
 * [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (Michael Jolley)](https://www.twitch.tv/videos/575989962)
@@ -158,7 +159,6 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 * [Building a data layer for awesum.io with FaunaDb (Michael Jolley, 9/19/2019)](https://www.youtube.com/watch?v=E2YP4v5eT4Q)
 * [Build a serverless CRUD app using Vue.js Netlify and FaunaDB](https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno)
 * [JAMstack Crash Course - Build a Full Stack Application](https://www.youtube.com/watch?v=73b1ZbmB96I)
-
 
 ###### Golang
 * [Exploring Netlify and FaunaDB using Go Functions (Chris Biscardi)](https://www.youtube.com/watch?v=80c3088hXWQ) - We insert our first documents into a FaunaDB database using the Golang driver. 
