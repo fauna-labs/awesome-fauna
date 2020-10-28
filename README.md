@@ -151,7 +151,7 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 #### Coding tutorial videos
 
 ###### JavaScript
-* [FaunaDB basics](https://www.youtube.com/watch?v=2CipVwISumA)
+* [FaunaDB basics - The database of your dreams](https://www.youtube.com/watch?v=2CipVwISumA) - Beginner-friendly database tutorial by Jeff Delaney of Fireship
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
 * [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (Michael Jolley)](https://www.twitch.tv/videos/575989962)
