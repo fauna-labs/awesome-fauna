@@ -116,6 +116,7 @@ All of the apps included here should be open source, with repositories you can f
 
 #### Wrappers and libraries
 * [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
+* [faunadb-connector](https://github.com/SilverFox70/faunadb-connector) - Convenience wrapper class for the basic functionality of the FaunaDB Javascript API
 * [faunadb-geo](https://www.npmjs.com/package/faunadb-geo) - JS library for creating, managing, and querying geospatial resources in FaunaDB
 
 #### Community drivers
