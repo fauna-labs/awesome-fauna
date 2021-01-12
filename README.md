@@ -75,6 +75,9 @@ All of the apps included here should be open source, with repositories you can f
 ###### Incorporating Very Good Security [VGS]
 * [A version of netlify-faunadb-example incorporating VGS](https://github.com/preconceptioncode/netlify-faunadb-example) - For interacting with regulated, sensitive data without the liability of securing it [e.g., for compliance with HIPAA, GDPR, etc.]
 
+###### Streaming examples
+* [Fauna's official sample app for document streaming (React)](https://github.com/fauna-brecht/fauna-streaming-example)
+
 ###### Incorporating web sockets
 * [Synchronized Claps with React on Netlify + Fauna + Pusher](https://github.com/chron/clap)
 * [Outpost 18](https://github.com/chron/outpost18) - Real-time card game for two players
