@@ -188,7 +188,8 @@ In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), 
 * [Getting started with FQL](https://github.com/PierBover/getting-started-fauna-db-fql)
 * [Geospatial Queries on FaunaDB](https://dev.to/potato_potaro/geospatial-queries-on-faunadb-135e)
 * [Setup Expo with FaunaDB via Vercel (And Apollo Client)](https://dev.to/studio_hungry/setup-expo-with-faunadb-via-vercel-12hp)
-* [Social login with FaunaDB and Auth0](https://www.gatlin.io/blog/post/social-login-with-faunadb-and-auth0)
+* [Social login with FaunaDB and Auth0)](https://www.gatlin.io/blog/post/social-login-with-faunadb-and-auth0)
+* [Build a serverless recipes app with FaunaDB and Vue.js](https://ttntm.me/blog/serverless-recipes-app-faunadb-vuejs)
 * [Public bookmark list and URL shortener with Fauna, Next.js and Auth0](https://fgiuliani.com/posts/fauna-next-auth0/)
 
 #### Data modeling and performance in FaunaDB
