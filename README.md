@@ -125,6 +125,7 @@ All of the apps included here should be open source, with repositories you can f
 #### Community drivers
 In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
 
+* [Dart](https://github.com/gavanitrate/faunadb-http-dart)
 * [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
 * [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
 * [Rust](https://github.com/prisma/faunadb-rust)
