@@ -140,7 +140,6 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 
 #### Data migration
-In addition to [Fauna Data Manager](https://docs.fauna.com/fauna/current/fdm/), Fauna's official CLI tool for data import/export tasks, the following are also available.
 
 * [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
 * [Fill Fauna](https://github.com/lkatartn/fill-fauna) - Fill your Fauna collection with data from JSON file
