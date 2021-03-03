@@ -87,7 +87,6 @@ All of the apps included here should be open source, with repositories you can f
 
 ###### Other example apps using React
 * [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
-* [Talent Hub](https://github.com/spacehelmet/talenth) - Open source HR platform on React, Apollo and GraphQL https://talenth.co ([related blog](https://fauna.com/blog/building-a-job-posting-platform-with-faunadb-and-apollo))
 * [fauna-market](https://github.com/fauna/fauna-market) - A market for Emoji goods, to demonstrate global consistency in Fauna
 * [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using Fauna and some hooks
 * [serverless-graphql-potter](https://github.com/molebox/serverless-graphql-potter) - A playground project for practicing serverless graphql end points. Built with Gatsby, Netlify functions, Apollo, and Fauna. Data provided via the Potter API.
