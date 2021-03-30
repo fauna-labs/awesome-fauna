@@ -11,7 +11,9 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 		- [Starter-projects](#starter-projects)
 		- [Authentication examples](#authentication-examples)
 		- [Incorporating Very Good Security (VGS)](#incorporating-very-good-security-vgs)
+		- [Streaming examples](#streaming-examples)
 		- [Incorporating web sockets](#incorporating-web-sockets)
+		- [Code sandboxes](#code-sandboxes)
 		- [Other example apps using React](#other-example-apps-using-react)
 	- [Vue](#vue)
 	- [Svelte](#svelte)
@@ -62,7 +64,7 @@ All of the apps included here should be open source, with repositories you can f
 
 ###### Starter projects
 * [Fwitter](https://github.com/fauna-brecht/fwitter) - Fauna's "official unofficial" flagship sample application on which you can build your own project. It comes with with built-in authentication, rate limiting (to deter bots), UDFs, tests, and lots of well-commented example queries. This is a work in progress that will eventually incorporate more features. Feel free to fork and modify it, then link to it from this Awesome-Fauna list. 
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
+* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
 * [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Before Fwitter was created, this was Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and Fauna.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
@@ -72,7 +74,7 @@ All of the apps included here should be open source, with repositories you can f
 * [with-faunadb-abac-auth](https://github.com/fillipvt/with-faunadb-abac-auth) - Next.js + Fauna Cookie Based Login + ABAC + Apollo GraphQL
 * [nextjs-auth0-fauna](https://github.com/j0lv3r4/nextjs-auth0-fauna) - Serverless authentication example with Next.js, Auth0, Fauna, and ZEIT Now with Python Serverless Functions
 * [magic-link-fauna](https://docs.magic.link/integrations/todomvc) - A fullstack get started tutorial using Fauna + Magic + NextJS + Vercel built for the Next.JS conference.   
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/15) example, and [With FaunaDB Auth](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/12) example.**
+* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/15) example, and [With FaunaDB Auth](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/12) example.**
 
 
 ###### Incorporating Very Good Security [VGS]
@@ -80,7 +82,7 @@ All of the apps included here should be open source, with repositories you can f
 
 ###### Streaming examples
 * [Fauna's official sample app for document streaming (React)](https://github.com/fauna-brecht/fauna-streaming-example)
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB Real Time](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/13) example.**
+* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB Real Time](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/13) example.**
 
 ###### Incorporating web sockets
 * [Synchronized Claps with React on Netlify + Fauna + Pusher](https://github.com/chron/clap)
@@ -90,6 +92,7 @@ All of the apps included here should be open source, with repositories you can f
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
 ###### Other example apps using React
+* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
 * [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
 * [fauna-market](https://github.com/fauna/fauna-market) - A market for Emoji goods, to demonstrate global consistency in Fauna
 * [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using Fauna and some hooks
@@ -139,6 +142,8 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 #### GraphQL tools
 * [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which Fauna does not natively support yet. 
 * [FaunaDB GQL upload](https://github.com/Plazide/fauna-gql-upload): simple CLI to update your database's GraphQL schema, resolver functions, indexes, and database roles without going to the Fauna dashboard.
+  * Examples using FGU:
+    * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB GraphQL](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/20) example.** Also uses GraphQL Config which brings in-editor auto-completion and debugging.
 
 
 
