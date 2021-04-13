@@ -113,6 +113,7 @@ All of the apps included here should be open source, with repositories you can f
 ### Svelte
 * [covid-19-vs-markets](https://github.com/Prubby/covid-19-vs-markets) - Educational web application which tracks the effects of COVID-19 on indexes such as stocks and currencies ([live app](https://covid-19-vs-market.now.sh/))
 * [cv-svelte-netlify-faunadb](https://github.com/ganesankar/cv-svelte-netlify-faunadb) - A responsive CV/Resume SPA built with Svelte, bulma, and Netlify Functions
+* [Vidu](https://github.com/pa-nic/vidu) - Example minimal web analytics SPA build with Netlify (Identity, Functions), Svelte, Windi CSS(TailwindCSS) and Fauna
 
 ### Other or no framework
 * [https://github.com/zeusdeux/jwt-example](https://github.com/zeusdeux/jwt-example) - Playing with user registration, login/logout, auth, etc using JWTs, serverless functions & fauna as the data store. 
