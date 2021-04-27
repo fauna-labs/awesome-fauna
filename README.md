@@ -4,6 +4,15 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 
 ## :bookmark_tabs: Contents
 
+- [Tools](#tools)
+	- [Wrappers & libraries](#wrappers-and-libraries)
+		- [JavaScript](#javascript)
+		- [Python](#python)
+	- [Database Frameworks](#database-frameworks)
+	- [Community Drivers](#community-drivers)
+	- [GraphQL tools](#graphql-tools)
+	- [Data migration](#data-migration)
+	- [Other tools](#other-tools)
 - [Gists](#gists)
 - [Open source example apps](#open-source-example-apps)
 	- [React](#react)
@@ -18,13 +27,6 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 	- [Vue](#vue)
 	- [Svelte](#svelte)
 	- [Other or no framework](#other-or-no-framework)
-- [Tools](#tools)
-	- [Database Frameworks](#database-frameworks)
-	- [Wrappers & libraries](#wrappers-and-libraries)
-	- [Community Drivers](#community-drivers)
-	- [GraphQL tools](#graphql-tools)
-	- [Data migration](#data-migration)
-	- [Other tools](#other-tools)
 - [Videos](#videos)
 	- [Coding tutorial videos](#coding-tutorial-videos)
 	- [Database concept videos](#database-concept-videos)
@@ -34,6 +36,48 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 	- [Data modeling and performance in FaunaDB](#data-modeling-and-performance-in-faunadb)
 	- [Database concepts](#database-concepts)
 	- [Backups](#backups)
+
+
+## Tools
+
+#### Wrappers and libraries
+##### JavaScript
+* [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
+* [faunadb-connector](https://github.com/SilverFox70/faunadb-connector) - Convenience wrapper class for the basic functionality of the Fauna Javascript API
+* [faunadb-geo](https://www.npmjs.com/package/faunadb-geo) - JS library for creating, managing, and querying geospatial resources in Fauna
+
+##### Python
+* [Pfunk](https://github.com/capless/pfunk) - A Python library to make writing applications with FaunaDB easier. Includes GraphQL and generic ABAC auth workflow integrations.
+
+#### Database frameworks
+* [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
+
+#### Community drivers
+In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
+
+* [Dart](https://github.com/gavanitrate/faunadb-http-dart)
+* [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
+* [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
+* [Rust](https://github.com/prisma/faunadb-rust)
+* [Elixir #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
+* [Elixir #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
+
+#### GraphQL tools
+* [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which Fauna does not natively support yet. 
+* [FaunaDB GQL upload](https://github.com/Plazide/fauna-gql-upload): simple CLI to update your database's GraphQL schema, resolver functions, indexes, and database roles without going to the Fauna dashboard.
+  * Examples using FGU:
+    * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB GraphQL](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/20) example.** Also uses GraphQL Config which brings in-editor auto-completion and debugging.
+
+#### Data migration
+
+* [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) - Unofficial Fauna-Labs tool ror migrating schema objects
+
+#### Other tools
+* [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
+* [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
+* [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
+* [gatsby-source-faunadb](https://github.com/paulcuth/gatsby-source-faunadb/blob/master/package.json) - A Gatsby source plugin to fetch documents from Fauna DB
+* [Fill Fauna](https://github.com/lkatartn/fill-fauna) - Fill your Fauna collection with data from JSON file
 
 
 ## Gists
@@ -56,9 +100,9 @@ Example FQL queries, UDFs, role predicates, etc. Any examples in this section ca
 * [Fauna Query Builder with test](https://gist.github.com/TracyNgot/291738b403cfa012fe7bf05614c22408)
 * [Fauna adapter for next-auth](https://gist.github.com/s-kris/fbb9e5d7ba5e9bb3a5f7bd11f3c42b96)
 
+
 ## Open source example apps
 All of the apps included here should be open source, with repositories you can fork/clone and run locally.
-
 
 ### React
 
@@ -117,46 +161,6 @@ All of the apps included here should be open source, with repositories you can f
 ### Other or no framework
 * [https://github.com/zeusdeux/jwt-example](https://github.com/zeusdeux/jwt-example) - Playing with user registration, login/logout, auth, etc using JWTs, serverless functions & fauna as the data store. 
 * [BigCommerce channels starter app](https://github.com/bigcommerce/channels-app) - A reference implementation by BigCommerce for Channel, Sites, and Routes APIs and BigDesign React Components based on Fauna.
-
-## Tools
-
-#### Database frameworks
-* [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
-
-#### Wrappers and libraries
-* [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
-* [faunadb-connector](https://github.com/SilverFox70/faunadb-connector) - Convenience wrapper class for the basic functionality of the Fauna Javascript API
-* [faunadb-geo](https://www.npmjs.com/package/faunadb-geo) - JS library for creating, managing, and querying geospatial resources in Fauna
-
-#### Community drivers
-In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
-
-* [Dart](https://github.com/gavanitrate/faunadb-http-dart)
-* [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
-* [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
-* [Rust](https://github.com/prisma/faunadb-rust)
-* [Elixir #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
-* [Elixir #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
-
-
-#### GraphQL tools
-* [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which Fauna does not natively support yet. 
-* [FaunaDB GQL upload](https://github.com/Plazide/fauna-gql-upload): simple CLI to update your database's GraphQL schema, resolver functions, indexes, and database roles without going to the Fauna dashboard.
-  * Examples using FGU:
-    * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB GraphQL](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/20) example.** Also uses GraphQL Config which brings in-editor auto-completion and debugging.
-
-
-
-#### Data migration
-
-* [FaunaDB Migrate](https://github.com/BrunoQuaresma/faunadb-migrate) - For migrating schema [not data] between Fauna databases 
-* [Fill Fauna](https://github.com/lkatartn/fill-fauna) - Fill your Fauna collection with data from JSON file
-
-#### Other tools
-* [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
-* [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
-* [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
-* [gatsby-source-faunadb](https://github.com/paulcuth/gatsby-source-faunadb/blob/master/package.json) - A Gatsby source plugin to fetch documents from Fauna DB
 
 ## Videos
 
