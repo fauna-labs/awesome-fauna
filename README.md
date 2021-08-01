@@ -212,6 +212,7 @@ All of the apps included here should be open source, with repositories you can f
 * [Public bookmark list and URL shortener with Fauna, Next.js and Auth0](https://fgiuliani.com/posts/fauna-next-auth0/)
 * [Managing user authentication and sessions with Fauna and Flask](https://dev.to/lordghostx/managing-user-authentication-and-sessions-with-fauna-and-flask-5h5h)
 * [Building a CuriousCat clone with Python + Fauna](https://www.git-tower.com/learn/curiouscat-with-python-and-fauna/)
+* [Streaming Fauna documents with Python](https://dev.to/lordghostx/streaming-fauna-documents-with-python-18c3)
 
 #### Data modeling and performance in FaunaDB
 * [How to query by multiple conditions in faunadb?](https://stackoverflow.com/questions/61509089/how-to-query-by-multiple-conditions-in-faunadb)
