@@ -8,6 +8,7 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 	- [Wrappers & libraries](#wrappers-and-libraries)
 		- [JavaScript](#javascript)
 		- [Python](#python)
+		- [Typescript](#typescript)
 	- [Database Frameworks](#database-frameworks)
 	- [Community Drivers](#community-drivers)
 	- [GraphQL tools](#graphql-tools)
@@ -40,20 +41,23 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 
 ## Tools
 
-#### Wrappers and libraries
-##### JavaScript
+### Wrappers and libraries
+#### JavaScript
 * [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
 * [faunadb-connector](https://github.com/SilverFox70/faunadb-connector) - Convenience wrapper class for the basic functionality of the Fauna Javascript API
 * [faunadb-geo](https://www.npmjs.com/package/faunadb-geo) - JS library for creating, managing, and querying geospatial resources in Fauna
 
-##### Python
+#### Python
 * [Pfunk](https://github.com/capless/pfunk) - A Python library to make writing applications with FaunaDB easier. Includes GraphQL and generic ABAC auth workflow integrations.
 
-#### Database frameworks
+#### Typescript
+* [FaunaDB](https://github.com/gmencz/faunadb) - TypeScript-first FaunaDB client with static type inference.
+
+### Database frameworks
 * [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
 
-#### Community drivers
-In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
+### Community drivers
+In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), and [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
 
 * [Dart](https://github.com/gavanitrate/faunadb-http-dart)
 * [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
@@ -62,17 +66,17 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 * [Elixir #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
 * [Elixir #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
 
-#### GraphQL tools
+### GraphQL tools
 * [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which Fauna does not natively support yet.
 * [FaunaDB GQL upload](https://github.com/Plazide/fauna-gql-upload): simple CLI to update your database's GraphQL schema, resolver functions, indexes, and database roles without going to the Fauna dashboard.
   * Examples using FGU:
     * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB GraphQL](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/20) example.** Also uses GraphQL Config which brings in-editor auto-completion and debugging.
 
-#### Data migration
+### Data migration
 
 * [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) - Unofficial Fauna-Labs tool ror migrating schema objects
 
-#### Other tools
+### Other tools
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
 * [Nanohash](https://github.com/gahabeen/nanohash) - A tiny unique string ID generator including a matching 64-bit numeric value
 * [Tool that translates Fauna's wire protocol to FQL](https://github.com/trevorsibanda/fauna-tool)
@@ -107,13 +111,13 @@ All of the apps included here should be open source, with repositories you can f
 
 ### React
 
-###### Starter projects
+#### Starter projects
 * [Fwitter](https://github.com/fauna-brecht/fwitter) - Fauna's "official unofficial" flagship sample application on which you can build your own project. It comes with with built-in authentication, rate limiting (to deter bots), UDFs, tests, and lots of well-commented example queries. This is a work in progress that will eventually incorporate more features. Feel free to fork and modify it, then link to it from this Awesome-Fauna list.
 * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
 * [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Before Fwitter was created, this was Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and Fauna.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
-###### Authentication examples
+#### Authentication examples
 * [netlify-faunadb-graphql-auth](https://github.com/ptpaterson/netlify-faunadb-graphql-auth) - A version of the netlify-faunadb-example, using HTTP-only cookies for authentication with FaunaDB's native GraphQL API
 * [with-cookie-auth-fauna](https://github.com/zeit/next.js/tree/master/examples/with-cookie-auth-fauna) - Cookie authentication using Fauna with Zeit Now
 * [with-faunadb-abac-auth](https://github.com/fillipvt/with-faunadb-abac-auth) - Next.js + Fauna Cookie Based Login + ABAC + Apollo GraphQL
@@ -123,21 +127,21 @@ All of the apps included here should be open source, with repositories you can f
 * [fauna-auth-demo](https://github.com/LordGhostX/fauna-auth-demo) - A fullstack application to get started with Fauna authentication using Fauna + Bootstrap + Python + Flask.
 
 
-###### Incorporating Very Good Security [VGS]
+#### Incorporating Very Good Security [VGS]
 * [A version of netlify-faunadb-example incorporating VGS](https://github.com/preconceptioncode/netlify-faunadb-example) - For interacting with regulated, sensitive data without the liability of securing it [e.g., for compliance with HIPAA, GDPR, etc.]
 
-###### Streaming examples
+#### Streaming examples
 * [Fauna's official sample app for document streaming (React)](https://github.com/fauna-brecht/fauna-streaming-example)
 * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB Real Time](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/13) example.**
 
-###### Incorporating web sockets
+#### Incorporating web sockets
 * [Synchronized Claps with React on Netlify + Fauna + Pusher](https://github.com/chron/clap)
 * [Outpost 18](https://github.com/chron/outpost18) - Real-time card game for two players
 
-###### Code sandboxes
+#### Code sandboxes
 * [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
-###### Other example apps using React
+#### Other example apps using React
 * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
 * [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
 * [fauna-market](https://github.com/fauna/fauna-market) - A market for Emoji goods, to demonstrate global consistency in Fauna
@@ -167,9 +171,9 @@ All of the apps included here should be open source, with repositories you can f
 
 ## Videos
 
-#### Coding tutorial videos
+### Coding tutorial videos
 
-###### JavaScript
+#### JavaScript
 * [FaunaDB basics - The database of your dreams](https://www.youtube.com/watch?v=2CipVwISumA) - Beginner-friendly database tutorial by Jeff Delaney of Fireship
 * [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
 * [Create a JAMstack Registration Form (Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
@@ -179,14 +183,14 @@ All of the apps included here should be open source, with repositories you can f
 * [Build a serverless CRUD app using Vue.js Netlify and FaunaDB](https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno)
 * [JAMstack Crash Course - Build a Full Stack Application](https://www.youtube.com/watch?v=73b1ZbmB96I)
 
-###### Golang
+#### Golang
 * [Exploring Netlify and FaunaDB using Go Functions (Chris Biscardi)](https://www.youtube.com/watch?v=80c3088hXWQ) - We insert our first documents into a Fauna database using the Golang driver.
 * [Querying FaunaDB with FQL and GoLang (Chris Biscardi)](https://www.youtube.com/watch?v=4S7BNMIuwgk)
 
-###### Other
+#### Other
 * [Oracle & PostgreSQL To FaunaDB FullMode](https://www.youtube.com/watch?v=33a1nSxU32E)
 
-#### Database concept videos
+### Database concept videos
 * [Webinar: Comparing Distributed Transaction Architectures for the Cloud Era (Kyle Kingsbury)](https://www.youtube.com/watch?v=w_zYYF3-iSo&t=2628s) - Geographically distributed transactional workloads are an emerging problem in distributed databases. Consensus algorithms like Raft offer us totally ordered operations in the context of a single replication group, but there is (as of yet) no consensus on how to build fast, isolated transactions across multiple consensus groups. Kyle Kingsbury, author of the famous Jepsen testing series, presents several approaches for transactional databases, including those based on Percolator (TiDB), Spanner (CockroachDB), MongoDB, Yugabyte and Calvin (Fauna).
 
 
@@ -196,7 +200,7 @@ All of the apps included here should be open source, with repositories you can f
 
 ## Articles and posts
 
-#### Coding tutorials
+### Coding tutorials
 * [Using Next.js with FaunaDB: How to Query the Database from Your App](https://snipcart.com/blog/nextjs-faunadb)
 * [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
 * [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
@@ -214,10 +218,10 @@ All of the apps included here should be open source, with repositories you can f
 * [Building a CuriousCat clone with Python + Fauna](https://www.git-tower.com/learn/curiouscat-with-python-and-fauna/)
 * [Streaming Fauna documents with Python](https://dev.to/lordghostx/streaming-fauna-documents-with-python-18c3)
 
-#### Data modeling and performance in FaunaDB
+### Data modeling and performance in FaunaDB
 * [How to query by multiple conditions in faunadb?](https://stackoverflow.com/questions/61509089/how-to-query-by-multiple-conditions-in-faunadb)
 
-#### Database concepts
+### Database concepts
 * [Consistent backends and UX - Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 2: What can go wrong?](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 3: What are the barriers to adoption?](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/) -  CSS Tricks, 03/26/2020
@@ -225,5 +229,5 @@ All of the apps included here should be open source, with repositories you can f
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers (InfoWorld, 2/13/2020)
 
 
-#### Backups
+### Backups
 * [Automating FaunaDB backups](https://medium.com/@wallslide/automating-faunadb-backups-6f620727eedc) - Medium, 02/10/2020
