@@ -74,7 +74,7 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 
 ### Data migration
 
-* [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) - Unofficial Fauna-Labs tool ror migrating schema objects
+* [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) - Unofficial Fauna-Labs tool for migrating schema objects
 
 ### Other tools
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
