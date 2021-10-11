@@ -60,11 +60,12 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), and [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
 
 * [Dart](https://github.com/gavanitrate/faunadb-http-dart)
-* [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
-* [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
-* [Rust](https://github.com/prisma/faunadb-rust)
 * [Elixir #1 - admittedly a bit old](https://github.com/anildigital/faunadb-elixir)
 * [Elixir #2 - admittedly a bit older](https://github.com/sprsquish/faunadb-elixir )
+* [PHP](https://github.com/m50/faunadb-php)
+* [Ruby](https://docs.fauna.com/fauna/current/drivers/ruby)
+* [Rust](https://github.com/prisma/faunadb-rust)
+* [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
 
 ### GraphQL tools
 * [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which Fauna does not natively support yet.
