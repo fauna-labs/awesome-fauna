@@ -5,6 +5,7 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 ## :bookmark_tabs: Contents
 
 - [Tools](#tools)
+	- [Development lifecycle](#development-lifecycle)
 	- [Wrappers & libraries](#wrappers-and-libraries)
 		- [JavaScript](#javascript)
 		- [Python](#python)
@@ -40,6 +41,9 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 
 
 ## Tools
+
+### Development lifecycle
+* [Brainyduck](https://duck.brainy.sh) - Quickly build powerful backends using only your graphql schemas. Build SDKs, deploy schemas, UDFs, roles and indexes.
 
 ### Wrappers and libraries
 #### JavaScript
