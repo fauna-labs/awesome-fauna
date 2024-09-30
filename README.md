@@ -2,28 +2,36 @@
 
 Curated list of Fauna resources that live outside of the fauna.com or docs.fauna.com domains. Please feel free to make a PR to add more, or to propose a different organizational structure.
 
-## :bookmark_tabs: Contents
+> [!WARNING]
+> Fauna is decommissioning FQL v4 on June 30, 2025.
+>
+> Many of the resources here still rely on FQL v4. FQL v10 is recommended for
+> all new projects.
+>
+> Accounts created after August 21, 2024 must use FQL v10. Ensure you migrate
+> existing projects to the official v10 drivers by the v4 EOL date.
+>
+> For more information, see the [v4 end of life (EOL)
+> announcement](https://docs.fauna.com/fauna/v4/#fql-v4-end-of-life) and
+> [related FAQ](https://docs.fauna.com/fauna/v4/migration/faq).
+
+### :bookmark_tabs: Contents
 
 - [Tools](#tools)
-	- [Development lifecycle](#development-lifecycle)
-	- [Wrappers & libraries](#wrappers-and-libraries)
+	- [Wrappers and libraries](#wrappers-and-libraries)
 		- [JavaScript](#javascript)
-		- [Python](#python)
 		- [Typescript](#typescript)
 	- [Database Frameworks](#database-frameworks)
 	- [Community Drivers](#community-drivers)
-	- [GraphQL tools](#graphql-tools)
 	- [Data migration](#data-migration)
 	- [Other tools](#other-tools)
 - [Gists](#gists)
 - [Open source example apps](#open-source-example-apps)
 	- [React](#react)
-		- [Code sandboxes](#code-sandboxes)
-		- [Starter-projects](#starter-projects)
+		- [Starter projects](#starter-projects)
 		- [Authentication examples](#authentication-examples)
-		- [Incorporating Very Good Security (VGS)](#incorporating-very-good-security-vgs)
+		- [Incorporating Very Good Security \[VGS\]](#incorporating-very-good-security-vgs)
 		- [Streaming examples](#streaming-examples)
-		- [Incorporating web sockets](#incorporating-web-sockets)
 		- [Code sandboxes](#code-sandboxes)
 		- [Other example apps using React](#other-example-apps-using-react)
 	- [Vue](#vue)
@@ -31,6 +39,9 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 	- [Other or no framework](#other-or-no-framework)
 - [Videos](#videos)
 	- [Coding tutorial videos](#coding-tutorial-videos)
+		- [JavaScript](#javascript-1)
+		- [Golang](#golang)
+		- [Other](#other)
 	- [Database concept videos](#database-concept-videos)
 - [Podcasts](#podcasts)
 - [Articles and posts](#articles-and-posts)
@@ -42,25 +53,19 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 
 ## Tools
 
-### Development lifecycle
-* [Brainyduck](https://duck.brainy.sh) - Quickly build powerful backends using only your graphql schemas. Build SDKs, deploy schemas, UDFs, roles and indexes.
-
 ### Wrappers and libraries
 #### JavaScript
 * [faunadb-fql-lib](https://github.com/shiftx/faunadb-fql-lib) - JS library with utility functions that extends FQL with just FQL
 * [faunadb-connector](https://github.com/SilverFox70/faunadb-connector) - Convenience wrapper class for the basic functionality of the Fauna Javascript API
 * [faunadb-geo](https://www.npmjs.com/package/faunadb-geo) - JS library for creating, managing, and querying geospatial resources in Fauna
 
-#### Python
-* [Pfunk](https://github.com/capless/pfunk) - A Python library to make writing applications with FaunaDB easier. Includes GraphQL and generic ABAC auth workflow integrations.
-
 #### Typescript
 * [FaunaDB](https://github.com/gmencz/faunadb) - TypeScript-first FaunaDB client with static type inference.
 
-### Database frameworks
+### Database Frameworks
 * [Biota](https://github.com/gahabeen/biota) - A simple opiniated database framework for Fauna
 
-### Community drivers
+### Community Drivers
 In addition to Fauna's official, open source drivers in [JavaScript](https://docs.fauna.com/fauna/current/drivers/javascript), [Python](https://docs.fauna.com/fauna/current/drivers/python), [Go](https://docs.fauna.com/fauna/current/drivers/go), [JVM (Java, Scala, Android)](https://docs.fauna.com/fauna/current/drivers/jvm), and [C#](https://docs.fauna.com/fauna/current/drivers/csharp), the following drivers are currently maintained by the community:
 
 * [Dart](https://github.com/gavanitrate/faunadb-http-dart)
@@ -71,15 +76,9 @@ In addition to Fauna's official, open source drivers in [JavaScript](https://doc
 * [Rust](https://github.com/prisma/faunadb-rust)
 * [Swift](https://docs.fauna.com/fauna/current/drivers/swift)
 
-### GraphQL tools
-* [FaunaDB GraphQL Schema loader](https://www.npmjs.com/package/faunadb-graphql-schema-loader): A community package by Paul Paterson which makes uploading schemas simpler and allows to split a schema into multiple files. It supports splitting the schema by enabling the extend type which Fauna does not natively support yet.
-* [FaunaDB GQL upload](https://github.com/Plazide/fauna-gql-upload): simple CLI to update your database's GraphQL schema, resolver functions, indexes, and database roles without going to the Fauna dashboard.
-  * Examples using FGU:
-    * [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB GraphQL](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/20) example.** Also uses GraphQL Config which brings in-editor auto-completion and debugging.
-
 ### Data migration
 
-* [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) - Unofficial Fauna-Labs tool for migrating schema objects
+* [DB Migration Tool](https://github.com/fauna-labs/db-migration-tool/) - Fauna-Labs tool to sync data between multiple Fauna databases. Useful for migrating data from one Region Group to another.
 
 ### Other tools
 * [Gatsby plugin for FaunaDB](https://www.gatsbyjs.org/packages/gatsby-source-faunadb/)
@@ -96,11 +95,9 @@ Example FQL queries, UDFs, role predicates, etc. Any examples in this section ca
 * [useFauna()](https://gist.github.com/BrunoQuaresma/0236aff64dc44795f19994cbc7a07db6) - React hook used to run Fauna queries
 * [Template for building deeply nested FQL queries](https://gist.github.com/ptpaterson/82c01afc9b0ff624f96141a078b5ab54)
 * [Docker container testing trait for Scala](https://gist.github.com/tovbinm/5996221ab7a5ecd3d2afbfcd69d6f8e3)
-* [Auth0 and GraphQL example](https://gist.github.com/colllin/52d741f830a98c1a652e817aea0d22d0)
 * [Auth0 Rule to generate Fauna user token on login](https://github.com/osa9/nextjs-fauna-auth0-spa/blob/master/resources/auth0/login-fauna-on-login-auth0.js)
 * [Managing roles memberships in Fauna](https://gist.github.com/gahabeen/089bea4720f7bb8ec8fc47e0eb094ad7)
 * [Fauna User Token Expiration (for ABAC)](https://gist.github.com/colllin/fd7a40bb4f0f16603e68db0e6621369f) - Auth0 + Fauna ABAC integration: How to expire Fauna user secrets
-* [fauna-graphql-relations](https://gist.github.com/tovbinm/f76bcbf56ea8e2e3740e237b6c2f2ab9) - Fauna Relations: GraphQL schemas, mutations and resulting documents
 * [nGram example](https://gist.github.com/eigilsagafos/c4ab8c2dd8e8a47d017d7e543fa5887e) - Please note that there is currently no official Fauna documentation on this "secret" function because they want to make some improvements to it first. That said, use this function in production code at your own risk.
 * [Clean up Docker](https://gist.github.com/beeman/aca41f3ebd2bf5efbd9d7fef09eac54d) - Not Fauna-specific, but might be useful to anyone working with the Fauna Docker image
 * [Recursion UDF example](https://gist.github.com/n400/6b565a5d0ce99d1bffc1d0c2c3926cfd)
@@ -118,17 +115,14 @@ All of the apps included here should be open source, with repositories you can f
 
 #### Starter projects
 * [Fwitter](https://github.com/fauna-brecht/fwitter) - Fauna's "official unofficial" flagship sample application on which you can build your own project. It comes with with built-in authentication, rate limiting (to deter bots), UDFs, tests, and lots of well-commented example queries. This is a work in progress that will eventually incorporate more features. Feel free to fork and modify it, then link to it from this Awesome-Fauna list.
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
 * [netlify-faunadb-example](https://github.com/netlify/netlify-faunadb-example) - Before Fwitter was created, this was Fauna's most popular sample application. A lot of the other example apps, even those in other JS frameworks, are based on this. React frontend, Netlify Functions for API calls, and Fauna.
 * [fauna-nf](https://www.npmjs.com/package/fauna-nf) - npm install a fork of Create React App, with a Fauna backend
 
 #### Authentication examples
-* [netlify-faunadb-graphql-auth](https://github.com/ptpaterson/netlify-faunadb-graphql-auth) - A version of the netlify-faunadb-example, using HTTP-only cookies for authentication with FaunaDB's native GraphQL API
 * [with-cookie-auth-fauna](https://github.com/zeit/next.js/tree/master/examples/with-cookie-auth-fauna) - Cookie authentication using Fauna with Zeit Now
-* [with-faunadb-abac-auth](https://github.com/fillipvt/with-faunadb-abac-auth) - Next.js + Fauna Cookie Based Login + ABAC + Apollo GraphQL
 * [nextjs-auth0-fauna](https://github.com/j0lv3r4/nextjs-auth0-fauna) - Serverless authentication example with Next.js, Auth0, Fauna, and ZEIT Now with Python Serverless Functions
 * [magic-link-fauna](https://docs.magic.link/integrations/todomvc) - A fullstack get started tutorial using Fauna + Magic + NextJS + Vercel built for the Next.JS conference.   
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/15) example, and [With FaunaDB Auth](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/12) example.**
+(_auth_)! **More specifically [With Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/15) example, and [With FaunaDB Auth](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/12) example.**
 * [fauna-auth-demo](https://github.com/LordGhostX/fauna-auth-demo) - A fullstack application to get started with Fauna authentication using Fauna + Bootstrap + Python + Flask.
 
 
@@ -137,17 +131,13 @@ All of the apps included here should be open source, with repositories you can f
 
 #### Streaming examples
 * [Fauna's official sample app for document streaming (React)](https://github.com/fauna-brecht/fauna-streaming-example)
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)! **More specifically [With FaunaDB Real Time](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/13) example.**
-
-#### Incorporating web sockets
+(_auth_)! **More specifically [With FaunaDB Real Time](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic/pull/13) example.**
 * [Synchronized Claps with React on Netlify + Fauna + Pusher](https://github.com/chron/clap)
 * [Outpost 18](https://github.com/chron/outpost18) - Real-time card game for two players
 
 #### Code sandboxes
-* [Code Sandbox by Josh Parrot (Apollo GraphQL + Fauna)](https://codesandbox.io/s/festive-haibt-y61bw)
 
 #### Other example apps using React
-* [RWA using FaunaDB + Reaflow + Next.js + Magic Link](https://github.com/Vadorequest/rwa-faunadb-reaflow-nextjs-magic) - Real-world app example of a real-time Editor, using FaunaDB (realtime stream + GraphQL), Reaflow (graph editor), Next.js framework and a bit of Magic (_auth_)!
 * [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
 * [fauna-market](https://github.com/fauna/fauna-market) - A market for Emoji goods, to demonstrate global consistency in Fauna
 * [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using Fauna and some hooks
@@ -207,11 +197,9 @@ All of the apps included here should be open source, with repositories you can f
 
 ### Coding tutorials
 * [Using Next.js with FaunaDB: How to Query the Database from Your App](https://snipcart.com/blog/nextjs-faunadb)
-* [Instant GraphQL Backend with Fine-grained Security Using FaunaDB](https://css-tricks.com/instant-graphql-backend-using-faunadb/)
 * [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
 * [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
 * [How To Integrate FaunaDB In NodeJS](http://codigofacilito.com/articulos/faunadb-node)
-* [Serverless GraphQL - Part 3](https://nickymeuleman.netlify.app/blog/serverless-graphql-part-3)
 * [JAMstack Dynamic and Async functionality](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
 * [Getting started with FQL](https://github.com/PierBover/getting-started-fauna-db-fql)
 * [Geospatial Queries on FaunaDB](https://dev.to/potato_potaro/geospatial-queries-on-faunadb-135e)
@@ -236,3 +224,11 @@ All of the apps included here should be open source, with repositories you can f
 
 ### Backups
 * [Automating FaunaDB backups](https://medium.com/@wallslide/automating-faunadb-backups-6f620727eedc) - Medium, 02/10/2020
+
+# Contributing
+
+All contributions are greatly appreciated!
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You may also simply open an issue.
+
+Don't forget to give the project a star! Thanks again!
