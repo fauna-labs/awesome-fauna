@@ -227,7 +227,7 @@ All of the apps included here should be open source, with repositories you can f
 
 # Contributing
 
-Any contributions are from the community are greatly appreciated!
+All contributions are greatly appreciated!
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You may also simply open an issue.
 
