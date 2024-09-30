@@ -1,0 +1,4 @@
+{
+  "markdown.extension.toc.updateOnSave": true,
+  "markdown.extension.toc.levels": "2..6"
+}
