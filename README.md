@@ -2,19 +2,6 @@
 
 Curated list of Fauna resources that live outside of the fauna.com or docs.fauna.com domains. Please feel free to make a PR to add more, or to propose a different organizational structure.
 
-> [!WARNING]
-> Fauna is decommissioning FQL v4 on June 30, 2025.
->
-> Many of the resources here still rely on FQL v4. FQL v10 is recommended for
-> all new projects.
->
-> Accounts created after August 21, 2024 must use FQL v10. Ensure you migrate
-> existing projects to the official v10 drivers by the v4 EOL date.
->
-> For more information, see the [v4 end of life (EOL)
-> announcement](https://docs.fauna.com/fauna/v4/#fql-v4-end-of-life) and
-> [related FAQ](https://docs.fauna.com/fauna/v4/migration/faq).
-
 ### :bookmark_tabs: Contents
 
 - [Open source Sample apps](#open-source-example-apps)
@@ -26,21 +13,12 @@ Curated list of Fauna resources that live outside of the fauna.com or docs.fauna
 
 
 ## Sample apps
-All of the apps included here should be open source, with repositories you can fork/clone and run locally.
 
 * [JavaScript/TypeScript backend](https://github.com/fauna/js-sample-app) - This sample app shows how to use Fauna in a production application.
 The app uses Node.js and the Fauna v10 JavaScript driver to create HTTP API endpoints for an e-commerce store. You can use the app's API endpoints to manage products, customers, and orders for the store.
 * [Java](https://github.com/fauna/java-sample-app) - This sample app shows how to use Fauna in a production application.
 The app uses Java 17 with Gradle 8.9 and the Fauna v10 JVM driver to create HTTP API endpoints for an e-commerce store. You can use the app's API endpoints to manage products, customers, and orders for the store.
 * [Event Streaming](https://github.com/fauna-labs/chat-app-streaming) - This reference application show how you can use Fauna Event Streaming to build real-time apps. You can use it as a starting point for your apps.
-
-
-#### Other example apps using React
-* [Just notes](https://github.com/BrunoQuaresma/justnotes.io) - Note-taking app by one of Fauna's frontend engineer's, using Create React App, Redux Starter Kit, React Redux, and Typescript ([related blog](https://www.brunoquaresma.dev/new-project-justnotes-io/))
-* [fauna-market](https://github.com/fauna/fauna-market) - A market for Emoji goods, to demonstrate global consistency in Fauna
-* [flash-fauna](https://github.com/NickFoden/flash-fauna) - Flash cards app using Fauna and some hooks
-* [serverless-graphql-potter](https://github.com/molebox/serverless-graphql-potter) - A playground project for practicing serverless graphql end points. Built with Gatsby, Netlify functions, Apollo, and Fauna. Data provided via the Potter API.
-* [Games built with Next.js and Fauna](https://github.com/goldenshun/botwise) - A set of simple games built with Fauna and Next.js which can be seen in action on https://botwise.games/.
 
 ## Videos
 
