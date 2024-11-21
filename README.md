@@ -2,56 +2,17 @@
 
 Curated list of Fauna resources that live outside of the fauna.com or docs.fauna.com domains. Please feel free to make a PR to add more, or to propose a different organizational structure.
 
-> [!WARNING]
-> Fauna is decommissioning FQL v4 on June 30, 2025.
->
-> Many of the resources here still rely on FQL v4. FQL v10 is recommended for
-> all new projects.
->
-> Accounts created after August 21, 2024 must use FQL v10. Ensure you migrate
-> existing projects to the official v10 drivers by the v4 EOL date.
->
-> For more information, see the [v4 end of life (EOL)
-> announcement](https://docs.fauna.com/fauna/v4/#fql-v4-end-of-life) and
-> [related FAQ](https://docs.fauna.com/fauna/v4/migration/faq).
-
 ### :bookmark_tabs: Contents
 
-- [Tools](#tools)
-	- [Wrappers and libraries](#wrappers-and-libraries)
-		- [JavaScript](#javascript)
-		- [Typescript](#typescript)
-	- [Database Frameworks](#database-frameworks)
-	- [Community Drivers](#community-drivers)
-	- [Data migration](#data-migration)
-	- [Other tools](#other-tools)
-- [Gists](#gists)
-- [Open source example apps](#open-source-example-apps)
-	- [React](#react)
-		- [Starter projects](#starter-projects)
-		- [Authentication examples](#authentication-examples)
-		- [Incorporating Very Good Security \[VGS\]](#incorporating-very-good-security-vgs)
-		- [Streaming examples](#streaming-examples)
-		- [Code sandboxes](#code-sandboxes)
-		- [Other example apps using React](#other-example-apps-using-react)
-	- [Vue](#vue)
-	- [Svelte](#svelte)
-	- [Other or no framework](#other-or-no-framework)
+- [Open source Sample apps](#open-source-example-apps)
 - [Videos](#videos)
 	- [Coding tutorial videos](#coding-tutorial-videos)
-		- [JavaScript](#javascript-1)
-		- [Golang](#golang)
-		- [Other](#other)
 	- [Database concept videos](#database-concept-videos)
 - [Podcasts](#podcasts)
-- [Articles and posts](#articles-and-posts)
-	- [Coding tutorials](#coding-tutorials)
-	- [Data modeling and performance in FaunaDB](#data-modeling-and-performance-in-faunadb)
-	- [Database concepts](#database-concepts)
-	- [Backups](#backups)
+- [Database concepts](#database-concepts)
 
 
-## Tools
+## Sample apps
 
 ### Wrappers and libraries
 #### JavaScript
@@ -164,27 +125,18 @@ All of the apps included here should be open source, with repositories you can f
 ### Other or no framework
 * [https://github.com/zeusdeux/jwt-example](https://github.com/zeusdeux/jwt-example) - Playing with user registration, login/logout, auth, etc using JWTs, serverless functions & fauna as the data store.
 * [BigCommerce channels starter app](https://github.com/bigcommerce/channels-app) - A reference implementation by BigCommerce for Channel, Sites, and Routes APIs and BigDesign React Components based on Fauna.
+* [JavaScript/TypeScript backend](https://github.com/fauna/js-sample-app) - This sample app shows how to use Fauna in a production application.
+The app uses Node.js and the Fauna v10 JavaScript driver to create HTTP API endpoints for an e-commerce store. You can use the app's API endpoints to manage products, customers, and orders for the store.
+* [Java](https://github.com/fauna/java-sample-app) - This sample app shows how to use Fauna in a production application.
+The app uses Java 17 with Gradle 8.9 and the Fauna v10 JVM driver to create HTTP API endpoints for an e-commerce store. You can use the app's API endpoints to manage products, customers, and orders for the store.
+* [Event Streaming](https://github.com/fauna-labs/chat-app-streaming) - This reference application show how you can use Fauna Event Streaming to build real-time apps. You can use it as a starting point for your apps.
 
 ## Videos
 
 ### Coding tutorial videos
-
-#### JavaScript
-* [FaunaDB basics - The database of your dreams](https://www.youtube.com/watch?v=2CipVwISumA) - Beginner-friendly database tutorial by Jeff Delaney of Fireship
-* [Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB (Chris Biscardi)](https://egghead.io/playlists/building-a-serverless-jamstack-todo-app-with-netlify-gatsby-graphql-and-faunadb-53bb)
-* [Create a JAMstack Registration Form (Jason Lengstorf)](https://www.learnwithjason.dev/create-a-jamstack-registration-form)
-* [Browser-based charades with Vue.js, Vonage Video API and FaunaDb (Michael Jolley)](https://www.twitch.tv/videos/575989962)
-* [Learn with Jason: Deploy a Gatsby Site + API Using ZEIT Now (Leo Lamprecht, Jason Lengstorf)](https://www.youtube.com/watch?v=6pfi4tx8yNA) - [demo](https://zeitplusgatsby.com), [repo](https://github.com/jlengstorf/zeit-prod)
-* [Building a data layer for awesum.io with FaunaDb (Michael Jolley, 9/19/2019)](https://www.youtube.com/watch?v=E2YP4v5eT4Q)
-* [Build a serverless CRUD app using Vue.js Netlify and FaunaDB](https://dev.to/chiubaca/build-a-serverless-crud-app-using-vue-js-netlify-and-faunadb-5dno)
-* [JAMstack Crash Course - Build a Full Stack Application](https://www.youtube.com/watch?v=73b1ZbmB96I)
-
-#### Golang
-* [Exploring Netlify and FaunaDB using Go Functions (Chris Biscardi)](https://www.youtube.com/watch?v=80c3088hXWQ) - We insert our first documents into a Fauna database using the Golang driver.
-* [Querying FaunaDB with FQL and GoLang (Chris Biscardi)](https://www.youtube.com/watch?v=4S7BNMIuwgk)
-
-#### Other
-* [Oracle & PostgreSQL To FaunaDB FullMode](https://www.youtube.com/watch?v=33a1nSxU32E)
+* [Build a Real-time Next.js 14 Chat App with Fauna](https://egghead.io/courses/build-a-real-time-next-js-14-chat-app-with-fauna-f8679b5b) - You’ll learn how to build a chat application using Fauna Streams and Next.js 14, focusing on the essentials and best practices.
+* [Fauna JumpStart - Essentials of Fauna](https://www.youtube.com/watch?v=QpuCo9iWK_c&list=PLmNbC0InqwK111JMUS_kAtNz-ymxKAXWN&ab_channel=FaunaInc.) - You'll learn the basics of Fauna
+and FQL in this youtube series
 
 ### Database concept videos
 * [Webinar: Comparing Distributed Transaction Architectures for the Cloud Era (Kyle Kingsbury)](https://www.youtube.com/watch?v=w_zYYF3-iSo&t=2628s) - Geographically distributed transactional workloads are an emerging problem in distributed databases. Consensus algorithms like Raft offer us totally ordered operations in the context of a single replication group, but there is (as of yet) no consensus on how to build fast, isolated transactions across multiple consensus groups. Kyle Kingsbury, author of the famous Jepsen testing series, presents several approaches for transactional databases, including those based on Percolator (TiDB), Spanner (CockroachDB), MongoDB, Yugabyte and Calvin (Fauna).
@@ -193,38 +145,13 @@ All of the apps included here should be open source, with repositories you can f
 ## Podcasts
 * [Unpacking Fauna: A Global Scale Cloud Native Database](https://www.youtube.com/watch?v=idex_BnG_c0) - Data Engineering Podcast Episode 78 (Tobias Macey, 6/4/2019)
 
-
-## Articles and posts
-
-### Coding tutorials
-* [Using Next.js with FaunaDB: How to Query the Database from Your App](https://snipcart.com/blog/nextjs-faunadb)
-* [Build a dynamic JAMstack app with GatsbyJS and FaunaDB](https://css-tricks.com/build-a-dynamic-jamstack-app-with-gatsbyjs-and-faunadb/)
-* [Build Your Own Serverless Writing Pad with Gatsby, Netlify, and FaunaDB](https://owlypixel.com/build-serverless-writing-pad/)
-* [How To Integrate FaunaDB In NodeJS](http://codigofacilito.com/articulos/faunadb-node)
-* [JAMstack Dynamic and Async functionality](https://overflowjs.com/posts/JAMstack-Dynamic-and-Async-functionality.html)
-* [Getting started with FQL](https://github.com/PierBover/getting-started-fauna-db-fql)
-* [Geospatial Queries on FaunaDB](https://dev.to/potato_potaro/geospatial-queries-on-faunadb-135e)
-* [Setup Expo with FaunaDB via Vercel (And Apollo Client)](https://dev.to/studio_hungry/setup-expo-with-faunadb-via-vercel-12hp)
-* [Social login with FaunaDB and Auth0)](https://www.gatlin.io/blog/post/social-login-with-faunadb-and-auth0)
-* [Build a serverless recipes app with FaunaDB and Vue.js](https://ttntm.me/blog/serverless-recipes-app-faunadb-vuejs)
-* [Public bookmark list and URL shortener with Fauna, Next.js and Auth0](https://fgiuliani.com/posts/fauna-next-auth0/)
-* [Managing user authentication and sessions with Fauna and Flask](https://dev.to/lordghostx/managing-user-authentication-and-sessions-with-fauna-and-flask-5h5h)
-* [Building a CuriousCat clone with Python + Fauna](https://www.git-tower.com/learn/curiouscat-with-python-and-fauna/)
-* [Streaming Fauna documents with Python](https://dev.to/lordghostx/streaming-fauna-documents-with-python-18c3)
-
-### Data modeling and performance in FaunaDB
-* [How to query by multiple conditions in faunadb?](https://stackoverflow.com/questions/61509089/how-to-query-by-multiple-conditions-in-faunadb)
-
-### Database concepts
+## Database concepts
 * [Consistent backends and UX - Part 1: Why should you care?](https://css-tricks.com/consistent-backends-and-ux:-why-should-you-care/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 2: What can go wrong?](https://css-tricks.com/consistent-backends-and-ux-what-can-go-wrong/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 3: What are the barriers to adoption?](https://css-tricks.com/consistent-backends-and-ux-what-are-the-barriers-to-adoption/) -  CSS Tricks, 03/26/2020
 * [Consistent backends and UX - Part 4: How do new algorithms help?](https://css-tricks.com/consistent-backends-and-ux:-how-do-new-algorithms-help/) -  CSS Tricks, 03/27/2020
 * [What’s next for serverless architecture?](https://www.infoworld.com/article/3526480/whats-next-for-serverless-architecture.html) - Automatic distribution of logic and data to the edge will bring minimal latency to end users, without provisioning, scaling, or configuration worries for developers (InfoWorld, 2/13/2020)
 
-
-### Backups
-* [Automating FaunaDB backups](https://medium.com/@wallslide/automating-faunadb-backups-6f620727eedc) - Medium, 02/10/2020
 
 # Contributing
 
