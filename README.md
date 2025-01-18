@@ -19,6 +19,7 @@ The app uses Node.js and the Fauna v10 JavaScript driver to create HTTP API endp
 * [Java](https://github.com/fauna/java-sample-app) - This sample app shows how to use Fauna in a production application.
 The app uses Java 17 with Gradle 8.9 and the Fauna v10 JVM driver to create HTTP API endpoints for an e-commerce store. You can use the app's API endpoints to manage products, customers, and orders for the store.
 * [Event Streaming](https://github.com/fauna-labs/chat-app-streaming) - This reference application show how you can use Fauna Event Streaming to build real-time apps. You can use it as a starting point for your apps.
+* [FaunaDo](https://github.com/r-kataria/FaunaDo) - A real-time sync to-do list app built with Next.js, Tailwind CSS, and FaunaDB (updated to use FQL10).
 
 ## Videos
 
